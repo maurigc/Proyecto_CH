@@ -1,0 +1,86 @@
+@charset "UTF-8";
+header {
+  background-color: #B5FE83; }
+  header .imagenLogo {
+    width: 100px;
+    height: 100px; }
+
+.color {
+  /*retoque color items nav*/
+  text-shadow: 1px 1px 1px #F7F7F7; }
+
+.bg-orange {
+  background-color: #FFB72B; }
+
+.mod_titulo {
+  border-left: 5px solid #FFB72B;
+  font-family: oswald;
+  font-size: 60px; }
+  @media only screen and (max-width: 768px) {
+    .mod_titulo {
+      font-size: 30px; } }
+
+.mod_texto {
+  font-family: noto sans; }
+
+.flex {
+  /*centrado de texto index*/
+  display: flex;
+  flex-direction: column;
+  justify-content: center; }
+
+.img-sizing {
+  /*modificacion tamaño imagen index*/
+  width: 90%;
+  height: 90%; }
+
+.pad_botonConocer {
+  padding: 5px; }
+  .pad_botonConocer .mod_botonConocer {
+    font-weight: bold;
+    font-family: noto sans;
+    font-size: 20px;
+    color: #F7F7F7;
+    text-decoration: none; }
+    .pad_botonConocer .mod_botonConocer:hover {
+      background-color: orange; }
+
+.mod_tituloNosotros {
+  border-right: 5px solid #FFB72B;
+  font-family: oswald;
+  font-size: 60px; }
+  @media only screen and (max-width: 768px) {
+    .mod_tituloNosotros {
+      font-size: 30px; } }
+
+.mod_fuente {
+  font-family: oswald;
+  font-size: 70px;
+  color: #FFB72B; }
+  @media only screen and (max-width: 768px) {
+    .mod_fuente {
+      font-size: 40px; } }
+
+.alineado {
+  text-align: center; }
+
+footer {
+  background-color: #B5FE83; }
+  footer .imagenLogo {
+    width: 100px;
+    height: 100px; }
+  footer .pieFooter {
+    font-size: 15px;
+    margin-bottom: 0px; }
+  footer .mod_nombreFoo h2 {
+    font-family: oswald;
+    font-size: 40px;
+    text-align: center;
+    transition: font-size 1s; }
+    footer .mod_nombreFoo h2:hover {
+      font-size: 50px; }
+    @media only screen and (max-width: 768px) {
+      footer .mod_nombreFoo h2 {
+        font-size: 30px; } }
+  footer .mod_redes img {
+    padding: 20px; }

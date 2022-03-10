@@ -1,0 +1,22 @@
+.mod_tituloNosotros{
+	border-right: 5px solid #FFB72B;
+	font-family: oswald;
+	font-size: 60px;
+	@media only screen and (max-width: 768px){
+		font-size: 30px;
+	}
+}
+
+.mod_fuente{
+	font-family: oswald;
+	font-size: 70px;
+	color: #FFB72B;
+	@media only screen and (max-width: 768px){
+		font-size: 40px;
+	}
+}
+
+.alineado{
+	text-align: center;
+}
+

@@ -1,0 +1,43 @@
+.bg-orange{
+	background-color: $orangeColor;
+}
+
+
+.mod_titulo{
+	border-left: 5px solid $orangeColor;
+	font-family: oswald;
+	font-size: 60px;
+	@media only screen and (max-width: 768px){
+		font-size: 30px;
+	}
+}
+
+.mod_texto{ 
+	font-family: noto sans;
+}
+
+
+.flex{ /*centrado de texto index*/
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
+
+.img-sizing{ /*modificacion tamaño imagen index*/
+	width: 90%;
+	height: 90%;
+}
+
+.pad_botonConocer{
+	padding: 5px;
+	.mod_botonConocer{
+		font-weight: bold;
+		font-family: noto sans;
+		font-size: 20px;
+		color: #F7F7F7;
+		text-decoration: none;
+		&:hover{
+			background-color: orange;
+		}
+	}
+}
