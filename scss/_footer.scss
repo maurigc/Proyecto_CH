@@ -2,16 +2,14 @@
 footer{
 	background-color: $lightGreenColor;
 	.imagenLogo{
-		width: 100px;
-		height: 100px;
+		@include tamaño(100px, 100px);
 	}
 	.pieFooter{
 		font-size: 15px;
 		margin-bottom: 0px;
 	}
 	.mod_nombreFoo h2{
-		font-family: oswald;
-		font-size: 40px;
+		@include estilos(oswald, 40px);
 		text-align: center;
 		transition: font-size 1s;
 		&:hover{

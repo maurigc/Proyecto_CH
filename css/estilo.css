@@ -55,8 +55,8 @@ header {
 
 .mod_fuente {
   font-family: oswald;
-  font-size: 70px;
-  color: #FFB72B; }
+  font-size: 60px;
+  color: #F7F7F7; }
   @media only screen and (max-width: 768px) {
     .mod_fuente {
       font-size: 40px; } }

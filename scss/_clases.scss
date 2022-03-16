@@ -1,0 +1,21 @@
+// Mixin para estilos y tamaño de fuente
+
+@mixin estilos($fuente, $tamaño){
+	font-family: $fuente;
+	font-size: $tamaño;
+}
+
+// Mixin para modificar el tamaño
+
+@mixin tamaño($ancho, $alto){
+	width: $ancho;
+	height: $alto;
+}
+
+// Map de colores de fuente
+
+$colores:(
+	naranja: #FFB72B,
+	verdeClaro: #B5FE83,
+	grisClaro: #F7F7F7,
+);

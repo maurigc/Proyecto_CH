@@ -1,12 +1,11 @@
 .bg-orange{
-	background-color: $orangeColor;
+	background-color: map-get($colores, naranja);
 }
 
 
 .mod_titulo{
 	border-left: 5px solid $orangeColor;
-	font-family: oswald;
-	font-size: 60px;
+	@include estilos(oswald, 60px);
 	@media only screen and (max-width: 768px){
 		font-size: 30px;
 	}
@@ -24,17 +23,15 @@
 }
 
 .img-sizing{ /*modificacion tamaño imagen index*/
-	width: 90%;
-	height: 90%;
+	@include tamaños(90px, 90px);
 }
 
 .pad_botonConocer{
 	padding: 5px;
 	.mod_botonConocer{
 		font-weight: bold;
-		font-family: noto sans;
-		font-size: 20px;
-		color: #F7F7F7;
+	@include estilos(noto sans, 20px);
+		color: map-get($colores, grisClaro);
 		text-decoration: none;
 		&:hover{
 			background-color: orange;

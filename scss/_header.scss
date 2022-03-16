@@ -1,9 +1,8 @@
 
 header{
-	background-color: $lightGreenColor;
+	background-color: map-get($colores, verdeClaro);
 	.imagenLogo{
-		width: 100px;
-		height: 100px;
+		@include tamaños(100px, 100px);
 	}
 }
 
