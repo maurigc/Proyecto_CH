@@ -1,4 +1,17 @@
 @charset "UTF-8";
+.botones, main div .button-1 .boton_conocer, main div .button-2 .boton_contacto {
+  padding: 10px 15px;
+  font-weight: bold;
+  color: #F7F7F7;
+  font-family: noto sans;
+  font-size: 20px;
+  background-color: #FFB72B; }
+
+.estilosHover, main div .button-1 .boton_conocer:hover, main div .button-2 .boton_contacto:hover {
+  background-color: orange;
+  color: #F7F7F7;
+  text-decoration: none; }
+
 header {
   background-color: #B5FE83; }
   header .imagenLogo {
@@ -8,9 +21,6 @@ header {
 .color {
   /*retoque color items nav*/
   text-shadow: 1px 1px 1px #F7F7F7; }
-
-.bg-orange {
-  background-color: #FFB72B; }
 
 .mod_titulo {
   border-left: 5px solid #FFB72B;
@@ -34,16 +44,19 @@ header {
   width: 90px;
   height: 90px; }
 
-.pad_botonConocer {
-  padding: 5px; }
-  .pad_botonConocer .mod_botonConocer {
-    font-weight: bold;
-    font-family: noto sans;
-    font-size: 20px;
-    color: #F7F7F7;
-    text-decoration: none; }
-    .pad_botonConocer .mod_botonConocer:hover {
-      background-color: orange; }
+main div {
+  padding: 10px; }
+  main div .button-1 {
+    justify-content: flex-end; }
+    @media only screen and (max-width: 768px) {
+      main div .button-1 {
+        justify-content: center;
+        padding-bottom: 5px; } }
+  main div .button-2 {
+    justify-content: flex-start; }
+    @media only screen and (max-width: 768px) {
+      main div .button-2 {
+        justify-content: center; } }
 
 .mod_tituloNosotros {
   border-right: 5px solid #FFB72B;

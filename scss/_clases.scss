@@ -19,3 +19,17 @@ $colores:(
 	verdeClaro: #B5FE83,
 	grisClaro: #F7F7F7,
 );
+
+.botones{
+	padding: 10px 15px;
+	font-weight: bold;
+	color: map-get($colores, grisClaro);
+	@include estilos(noto sans, 20px);
+	background-color: map-get($colores, naranja);
+}
+
+.estilosHover{
+	background-color: orange;
+	color: map-get($colores, grisClaro);
+	text-decoration: none;
+}
