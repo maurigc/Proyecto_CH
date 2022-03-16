@@ -8,7 +8,7 @@
 
 .mod_fuente{
 	@include estilos(oswald, 60px);
-	color: map-get($colores, grisClaro);
+	color: map-get($colores, naranja);
 	@media only screen and (max-width: 768px){
 		font-size: 40px;
 	}

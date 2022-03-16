@@ -1,6 +1,6 @@
 
 footer{
-	background-color: $lightGreenColor;
+	background-color: map-get($colores,verdeClaro);
 	.imagenLogo{
 		@include tamaño(100px, 100px);
 	}

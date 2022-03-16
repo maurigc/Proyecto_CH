@@ -2,7 +2,7 @@
 header{
 	background-color: map-get($colores, verdeClaro);
 	.imagenLogo{
-		@include tamaños(100px, 100px);
+		@include tamaño(100px, 100px);
 	}
 }
 

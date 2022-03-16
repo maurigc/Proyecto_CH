@@ -31,8 +31,8 @@ header {
 
 .img-sizing {
   /*modificacion tamaño imagen index*/
-  width: 90%;
-  height: 90%; }
+  width: 90px;
+  height: 90px; }
 
 .pad_botonConocer {
   padding: 5px; }
@@ -56,7 +56,7 @@ header {
 .mod_fuente {
   font-family: oswald;
   font-size: 60px;
-  color: #F7F7F7; }
+  color: #FFB72B; }
   @media only screen and (max-width: 768px) {
     .mod_fuente {
       font-size: 40px; } }

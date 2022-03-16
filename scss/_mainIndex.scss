@@ -4,7 +4,7 @@
 
 
 .mod_titulo{
-	border-left: 5px solid $orangeColor;
+	border-left: 5px solid map-get($colores,naranja);
 	@include estilos(oswald, 60px);
 	@media only screen and (max-width: 768px){
 		font-size: 30px;
@@ -23,7 +23,7 @@
 }
 
 .img-sizing{ /*modificacion tamaño imagen index*/
-	@include tamaños(90px, 90px);
+	@include tamaño(90px, 90px);
 }
 
 .pad_botonConocer{
