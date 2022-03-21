@@ -88,10 +88,7 @@ footer {
   footer .mod_nombreFoo h2 {
     font-family: oswald;
     font-size: 40px;
-    text-align: center;
-    transition: font-size 1s; }
-    footer .mod_nombreFoo h2:hover {
-      font-size: 50px; }
+    text-align: center; }
     @media only screen and (max-width: 768px) {
       footer .mod_nombreFoo h2 {
         font-size: 30px; } }
